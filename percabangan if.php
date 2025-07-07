@@ -1,0 +1,24 @@
+<?php
+$nilai=54;
+if($nilai>90){
+$grade="A+";
+}elseif($nilai>80){
+$grade="A";
+}elseif($nilai>70){
+$grade="Bt";
+}elseif($nilai>60){
+$grade="B";
+}elseif($nilai>50){
+$grade="C+";
+}elseif($nilai>40){
+$grade="c";
+}elseif($nilai>30){
+$grade="D";
+}elseif($nilai>20){
+$grade="e";
+}else{
+$grade="f";
+}
+echo"nilai anda : $nilai<br>";
+echo"grade:$grade";
+?>
